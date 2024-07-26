@@ -1,0 +1,67 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    font-family: 'pretendard';
+    caret-color: #6D19E0;
+    line-height: 160%;
+    letter-spacing: -0.35px;
+}
+
+body {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.accent_color {
+    color: #6D19E0;
+}
+
+.white {
+    color: white;
+}
+
+.black {
+    color: black;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.regular {
+    font-weight: 400;
+}
+
+.caption {
+    font-size: 12px;
+}
+
+.textSmall {
+    font-size: 14px;
+}
+
+.textMedium {
+    font-size: 16px;
+}
+
+.textLarge {
+    font-size: 18px;
+}
+
+.titleSmall {
+    font-size: 24px;
+}
+
+.titleMedium {
+    font-size: 28px;
+}
+
+.titleLarge {
+    font-size: 36px;
+}
+
+.titleXLarge {
+    font-size: 48px;
+}
