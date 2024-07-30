@@ -26,6 +26,10 @@ body {
     color: black;
 }
 
+.red {
+    color: #FC282F;
+}
+
 .bold {
     font-weight: 700;
 }
@@ -64,4 +68,212 @@ body {
 
 .titleXLarge {
     font-size: 48px;
+}
+
+
+
+header {
+    width: 100%;
+    height: 80px;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.08), 0px 0px 8px 0px rgba(0, 0, 0, 0.04);
+    z-index: 999;
+}
+
+.top_nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 100%;
+    width: 1200px;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.nav_left {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 40px;
+}
+
+.logo {
+    width: 82px;
+    height: 80px;
+}
+
+.logo img {
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+}
+
+.nav_menu {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap: 40px;
+}
+
+.nav_fn {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+}
+
+.login {
+    width: 40px;
+    height: 40px;
+    background-image: url(../img/power_setting.png);
+    background-size: cover;
+    background-color: white;
+    border: none;
+}
+
+.login img {
+    width: 24px;
+}
+
+.support {
+    width: 40px;
+    height: 40px;
+    background-image: url(../img/support_agents.png);
+    background-size: cover;
+    background-color: white;
+    border: none;
+}
+
+.support img {
+    width: 24px;
+}
+
+
+.breadscrumbs {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: #B5B6B8;
+    width: 1200px;
+    margin: 0 auto;
+    margin-top: 16px;
+    gap: 8px;
+}
+
+.breadscrumbs img {
+    width: 16px;
+}
+
+
+footer {
+    margin-top: 80px;
+    background-color: #0A0D14;
+    padding: 40px 0px;
+}
+
+.wrapper_footer {
+    margin: 0 auto;
+    width: 1200px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.footer_top {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.service_number {
+    display: flex;
+    flex-direction: column;
+}
+
+.service_number :nth-child(1) {
+color: #848689;
+}
+
+.service_kakao {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+
+.kakao_id {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.kakao_id_top {
+    color: #848689;
+}
+
+.kakao_id_bottom {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.service_kakao img {
+    width: 16px;
+}
+
+.line {
+    border: 1px solid #3B3D43;
+}
+
+.footer_bottom {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.bottom_button {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+}
+
+.service_button {
+    border: 1px solid #848689;
+    background-color: transparent;
+    padding: 4px 16px;
+    border-radius: 40px;
+}
+
+.bottom_company {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    color: #848689;
+}
+
+.bottom_warning {
+    color: #B572F5;
+}
+
+select::placeholder,
+input::placeholder {
+    color: #848689;
+    line-height: 160%;
+    letter-spacing: -0.35px;
+    font-weight: 400;
+}
+
+select:focus,
+input:focus {
+    outline: 2px solid #6D19E0;
+    background-color: white;
+}
+
+select {
+    appearance: none;
+    background-image: url(../img/arrow_drop_down.png);
+    background-repeat: no-repeat;
+    background-size: 24px;
+    margin-right: 0px;
+    background-position: center right 8px;
 }
